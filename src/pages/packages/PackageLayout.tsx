@@ -6,8 +6,12 @@ export default function PackageLayout(
     {
 return (
     <>
-    <div className="" >
-    <PackageLocationCard/>
+    <div className="  " >
+        <div className="flex">
+            <PackageLocationCard/> 
+            <PackageLocationCard/>
+        </div>
+       
     <div   >
         {children}
     </div>
